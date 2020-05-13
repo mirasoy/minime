@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        //배열생성하기
+        var bingoArr = [];
+        for (x = 0; x < 5; x++)
+            bingoArr[x] = new Array(5);
+
+
+
+        //2.1~25저장하기
+        var emp = [];
+        for (x = 0; x < 26; x++)
+            emp[x] = x + 1;
+
+
+
+        //3.셔플
+        emp.sort(function(a, b) {
+            return Math.random() - 0.5
+        });
+        //3-1. 랜덤숫자집어넣기
+        for (x = 0; x < 5; x++) {
+            for (y = 0; y < 5; y++) {
+                bingoArr[x][y] = emp..();
+            }
+        }
+
+
+        //4.도큐먼트라이트로 테이블출력
+        document.write("<table border = 1px>");
+
+
+        for (x = 0; x < 5; x++) {
+            document.write("<tr>");
+            for (y = 0; y < 5; y++) {
+                document.write("<td>");
+                document.write(bingoArr[x][y])
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+
+        document.write("</table>");
+    </script>
+</body>
+
+</html>
