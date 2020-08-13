@@ -11,6 +11,6 @@
 ## Team members
 
 - 김미라  [Mira Kim](https://github.com/mirasoy)
-- 김수희 [Suhee Kim](https://github.com/dropTheBit-SH)
+- 김수희 [Suhee Kim](https://github.com/suhee-developer)
 - 김지원 [Jiwon Kim](https://github.com/adndus)
 - 허세린 [Serin Heo](https://github.com/serin9811)
